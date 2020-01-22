@@ -6,7 +6,7 @@ def encode_to_morse(text):
          's': '...', 't': '-', 'u': '..-', 'v': '...-', 'w': '.--', 'x': '-..-', 'y': '-.--',
          'z': '--..'}
     text = list(text)
-    for i in range(len(text)):
+    for i in (text):
         print(d[i])
 
 
