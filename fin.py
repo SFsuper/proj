@@ -6,9 +6,5 @@ def main():
             text = input('Введите текст')
             encode_to_morse(text)
         elif do == 'декодировать':
-            code = input('Введите код морзе')
+            code = input('Введите код морзе(после каждой буквы один пробел, слова - два')
             decode_from_morse(code)
-
-
-
-
