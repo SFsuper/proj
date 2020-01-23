@@ -12,8 +12,8 @@ def encode_to_morse(text):
     text = list(text.lower())
     trans = list()
     for i in text:
-        trans.append(d[i]) # добляем в список trans переод букв с латинского на азбуку морзе
-    print(' '.join(trans)) # приобразовываем в код морза список trans
+        trans.append(d[i]) # добавляем к списку trans преобразованные в код морзе символы
+    print(' '.join(trans)) # выводим код морза 
 
 
 def decode_from_morse(code):
@@ -22,6 +22,7 @@ def decode_from_morse(code):
     for i in(code):
         trans.append(decode[i]) # Добавляем к списку trans преобразованные символы
     print(''.join(trans).capitalize().replace('  ',' ')) # Преобразовываем список в строку и выводим его
+
 
 def main():
     do = ''
